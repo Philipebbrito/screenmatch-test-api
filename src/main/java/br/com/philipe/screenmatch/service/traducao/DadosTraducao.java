@@ -1,4 +1,4 @@
-package br.com.alura.screenmatch.service.traducao;
+package br.com.philipe.screenmatch.service.traducao;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 

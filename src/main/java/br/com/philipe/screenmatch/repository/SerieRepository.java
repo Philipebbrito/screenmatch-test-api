@@ -1,7 +1,7 @@
-package br.com.alura.screenmatch.repository;
+package br.com.philipe.screenmatch.repository;
 
-import br.com.alura.screenmatch.model.Categoria;
-import br.com.alura.screenmatch.model.Serie;
+import br.com.philipe.screenmatch.model.Categoria;
+import br.com.philipe.screenmatch.model.Serie;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

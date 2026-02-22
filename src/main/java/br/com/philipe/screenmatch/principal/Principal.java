@@ -1,9 +1,10 @@
-package br.com.alura.screenmatch.principal;
+package br.com.philipe.screenmatch.principal;
 
 import br.com.alura.screenmatch.model.*;
-import br.com.alura.screenmatch.repository.SerieRepository;
-import br.com.alura.screenmatch.service.ConsumoApi;
-import br.com.alura.screenmatch.service.ConverteDados;
+import br.com.philipe.screenmatch.model.*;
+import br.com.philipe.screenmatch.repository.SerieRepository;
+import br.com.philipe.screenmatch.service.ConsumoApi;
+import br.com.philipe.screenmatch.service.ConverteDados;
 import org.springframework.dao.DataIntegrityViolationException;
 
 import java.util.*;
