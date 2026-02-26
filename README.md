@@ -7,7 +7,7 @@ O ScreenMatch é uma aplicação de linha de comando que permite ao usuário bus
 
 ## 🛠️ Tecnologias e Conceitos Utilizados
 * **Java 21**: Utilização de recursos modernos como *Records* e *Var*.
-* **Spring Boot 3.5.x**: Estrutura base para inicialização e gestão do projeto.
+* **Spring Boot 3.3.1: Estrutura base para inicialização e gestão do projeto.
 * **Java Streams & Lambdas**: Manipulação eficiente de coleções através de processamento funcional.
 * **Jackson Library**: Desserialização de JSON para objetos Java (POJOs/Records).
 * **HttpClient**: Realização de requisições HTTP para consumo de dados externos.
