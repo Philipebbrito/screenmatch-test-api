@@ -1,7 +1,7 @@
-package br.com.philipe.screenmatch.service.traducao;
+package br.com.alura.philipe.screenmatch.service.traducao;
 
 
-import br.com.philipe.screenmatch.service.ConsumoApi;
+import br.com.alura.philipe.screenmatch.service.ConsumoApi;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import java.net.URLEncoder;
 import java.nio.charset.StandardCharsets;

@@ -1,7 +1,7 @@
-package br.com.philipe.screenmatch.model;
+package br.com.alura.philipe.screenmatch.model;
 
 
-import br.com.philipe.screenmatch.service.traducao.ConsultaMyMemory;
+import br.com.alura.philipe.screenmatch.service.traducao.ConsultaMyMemory;
 import jakarta.persistence.*;
 
 import java.util.ArrayList;

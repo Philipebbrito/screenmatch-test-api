@@ -1,10 +1,10 @@
-package br.com.philipe.screenmatch.principal;
+package br.com.alura.philipe.screenmatch.principal;
 
-import br.com.philipe.screenmatch.model.*;
-import br.com.philipe.screenmatch.model.*;
-import br.com.philipe.screenmatch.repository.SerieRepository;
-import br.com.philipe.screenmatch.service.ConsumoApi;
-import br.com.philipe.screenmatch.service.ConverteDados;
+import br.com.alura.philipe.screenmatch.model.*;
+import br.com.alura.philipe.screenmatch.model.*;
+import br.com.alura.philipe.screenmatch.repository.SerieRepository;
+import br.com.alura.philipe.screenmatch.service.ConsumoApi;
+import br.com.alura.philipe.screenmatch.service.ConverteDados;
 import org.springframework.dao.DataIntegrityViolationException;
 
 import java.util.*;

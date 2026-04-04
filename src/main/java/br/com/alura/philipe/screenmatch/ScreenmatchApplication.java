@@ -1,7 +1,7 @@
-package br.com.philipe.screenmatch;
+package br.com.alura.philipe.screenmatch;
 
-import br.com.philipe.screenmatch.principal.Principal;
-import br.com.philipe.screenmatch.repository.SerieRepository;
+import br.com.alura.philipe.screenmatch.principal.Principal;
+import br.com.alura.philipe.screenmatch.repository.SerieRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;

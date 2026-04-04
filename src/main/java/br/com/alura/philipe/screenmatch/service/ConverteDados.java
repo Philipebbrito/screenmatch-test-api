@@ -1,4 +1,4 @@
-package br.com.philipe.screenmatch.service;
+package br.com.alura.philipe.screenmatch.service;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;

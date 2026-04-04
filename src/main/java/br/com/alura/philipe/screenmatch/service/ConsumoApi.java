@@ -1,4 +1,4 @@
-package br.com.philipe.screenmatch.service;
+package br.com.alura.philipe.screenmatch.service;
 
 import java.io.IOException;
 import java.net.URI;

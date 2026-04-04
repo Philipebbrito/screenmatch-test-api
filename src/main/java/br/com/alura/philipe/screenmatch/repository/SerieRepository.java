@@ -1,8 +1,8 @@
-package br.com.philipe.screenmatch.repository;
+package br.com.alura.philipe.screenmatch.repository;
 
-import br.com.philipe.screenmatch.model.Categoria;
-import br.com.philipe.screenmatch.model.Episodio;
-import br.com.philipe.screenmatch.model.Serie;
+import br.com.alura.philipe.screenmatch.model.Categoria;
+import br.com.alura.philipe.screenmatch.model.Episodio;
+import br.com.alura.philipe.screenmatch.model.Serie;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 
@@ -38,6 +38,9 @@ public interface SerieRepository extends JpaRepository <Serie, Long>{
             "GROUP BY s " +
             "ORDER BY MAX(e.dataLancamento) DESC LIMIT 5")
     List<Serie> lancamentosMaisRecentes();
+
+    @Query("SELECT e FROM Serie s JOIN s.episodios e WHERE s.id = :id AND e.temporada = :numero")
+    List <Episodio> obterEpisodiosPorTemporada(Long id, long numero);
 
 
 }
