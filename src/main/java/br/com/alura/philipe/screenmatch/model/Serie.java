@@ -1,6 +1,5 @@
 package br.com.alura.philipe.screenmatch.model;
 
-
 import br.com.alura.philipe.screenmatch.service.traducao.ConsultaMyMemory;
 import jakarta.persistence.*;
 
@@ -28,7 +27,8 @@ public class Serie {
     @OneToMany(mappedBy = "serie", cascade = CascadeType.ALL, fetch = FetchType.EAGER)
     private List<Episodio> episodios = new ArrayList<>();
 
-    public Serie() {}
+    public Serie() {
+    }
 
     public Serie(DadosSerie dadosSerie) {
         this.titulo = dadosSerie.titulo();
@@ -116,7 +116,7 @@ public class Serie {
 
     @Override
     public String toString() {
-        return  "genero=" + genero +
+        return "genero=" + genero +
                 ", titulo='" + titulo + '\'' +
                 ", totalTemporadas=" + totalTemporadas +
                 ", avaliacao=" + avaliacao +

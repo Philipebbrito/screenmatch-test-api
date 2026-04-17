@@ -3,5 +3,6 @@ package br.com.alura.philipe.screenmatch.service.traducao;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
-public record DadosTraducao(ResponseData responseData) {}
+public record DadosTraducao(ResponseData responseData) {
+}
 

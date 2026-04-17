@@ -2,7 +2,7 @@ package br.com.alura.philipe.screenmatch.model;
 
 public enum Categoria {
     ACAO("Action", "Acção"),
-    AVENTURA("Adventure","Aventura"),
+    AVENTURA("Adventure", "Aventura"),
     ROMANCE("Romance", "Romance"),
     COMEDIA("Comedy", "Comédia"),
     DRAMA("Drama", "Drama"),
@@ -12,7 +12,7 @@ public enum Categoria {
 
     private String categoriaPortugues;
 
-    Categoria(String categoriaOmdb, String categoriaPortugues){
+    Categoria(String categoriaOmdb, String categoriaPortugues) {
         this.categoriaOmdb = categoriaOmdb;
         this.categoriaPortugues = categoriaPortugues;
     }
