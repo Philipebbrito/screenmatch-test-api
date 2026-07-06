@@ -9,7 +9,7 @@
         <relativePath/>
     </parent>
     <groupId>br.com.alura</groupId>
-    <artifactId>screenmatch</artifactId>
+    <artifactId>consumoapiseriesefilmes</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>screenmatch</name>
     <description>Primeiro projeto Spring com Gemini</description>

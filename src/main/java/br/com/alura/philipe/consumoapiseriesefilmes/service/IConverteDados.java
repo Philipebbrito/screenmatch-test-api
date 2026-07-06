@@ -1,4 +1,4 @@
-package br.com.alura.philipe.screenmatch.service;
+package br.com.alura.philipe.consumoapiseriesefilmes.service;
 
 public interface IConverteDados {
     <T> T obterDados(String json, Class<T> classe);

@@ -1,9 +1,9 @@
-package br.com.alura.philipe.screenmatch.controller;
+package br.com.alura.philipe.consumoapiseriesefilmes.controller;
 
 
-import br.com.alura.philipe.screenmatch.dto.EpisodioDTO;
-import br.com.alura.philipe.screenmatch.dto.SerieDTO;
-import br.com.alura.philipe.screenmatch.service.SerieService;
+import br.com.alura.philipe.consumoapiseriesefilmes.dto.EpisodioDTO;
+import br.com.alura.philipe.consumoapiseriesefilmes.dto.SerieDTO;
+import br.com.alura.philipe.consumoapiseriesefilmes.service.SerieService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

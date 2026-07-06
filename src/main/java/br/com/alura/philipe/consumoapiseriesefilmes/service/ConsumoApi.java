@@ -1,4 +1,4 @@
-package br.com.alura.philipe.screenmatch.service;
+package br.com.alura.philipe.consumoapiseriesefilmes.service;
 
 import java.io.IOException;
 import java.net.URI;

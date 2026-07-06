@@ -1,4 +1,4 @@
-package br.com.alura.philipe.screenmatch.config;
+package br.com.alura.philipe.consumoapiseriesefilmes.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.CorsRegistry;

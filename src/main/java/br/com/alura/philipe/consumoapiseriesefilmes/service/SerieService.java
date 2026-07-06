@@ -1,11 +1,11 @@
-package br.com.alura.philipe.screenmatch.service;
+package br.com.alura.philipe.consumoapiseriesefilmes.service;
 
 
-import br.com.alura.philipe.screenmatch.dto.EpisodioDTO;
-import br.com.alura.philipe.screenmatch.dto.SerieDTO;
-import br.com.alura.philipe.screenmatch.model.Categoria;
-import br.com.alura.philipe.screenmatch.model.Serie;
-import br.com.alura.philipe.screenmatch.repository.SerieRepository;
+import br.com.alura.philipe.consumoapiseriesefilmes.dto.EpisodioDTO;
+import br.com.alura.philipe.consumoapiseriesefilmes.dto.SerieDTO;
+import br.com.alura.philipe.consumoapiseriesefilmes.model.Categoria;
+import br.com.alura.philipe.consumoapiseriesefilmes.model.Serie;
+import br.com.alura.philipe.consumoapiseriesefilmes.repository.SerieRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

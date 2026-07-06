@@ -1,4 +1,4 @@
-package br.com.alura.philipe.screenmatch.model;
+package br.com.alura.philipe.consumoapiseriesefilmes.model;
 
 import jakarta.persistence.*;
 

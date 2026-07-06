@@ -1,13 +1,13 @@
-package br.com.alura.philipe.screenmatch;
+package br.com.alura.philipe.consumoapiseriesefilmes;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ScreenmatchApplication {
+public class ConsumoApiSeriesEFilmes {
 
     public static void main(String[] args) {
-        SpringApplication.run(ScreenmatchApplication.class, args);
+        SpringApplication.run(ConsumoApiSeriesEFilmes.class, args);
     }
 
 }

@@ -1,8 +1,8 @@
-package br.com.alura.philipe.screenmatch.repository;
+package br.com.alura.philipe.consumoapiseriesefilmes.repository;
 
-import br.com.alura.philipe.screenmatch.model.Categoria;
-import br.com.alura.philipe.screenmatch.model.Episodio;
-import br.com.alura.philipe.screenmatch.model.Serie;
+import br.com.alura.philipe.consumoapiseriesefilmes.model.Categoria;
+import br.com.alura.philipe.consumoapiseriesefilmes.model.Episodio;
+import br.com.alura.philipe.consumoapiseriesefilmes.model.Serie;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 

@@ -1,6 +1,6 @@
-package br.com.alura.philipe.screenmatch.dto;
+package br.com.alura.philipe.consumoapiseriesefilmes.dto;
 
-import br.com.alura.philipe.screenmatch.model.Categoria;
+import br.com.alura.philipe.consumoapiseriesefilmes.model.Categoria;
 
 
 public record SerieDTO(Long id, String titulo, Integer totalTemporadas, Double avaliacao, Categoria genero,

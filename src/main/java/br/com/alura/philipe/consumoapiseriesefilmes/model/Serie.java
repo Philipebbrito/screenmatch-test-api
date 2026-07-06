@@ -1,6 +1,6 @@
-package br.com.alura.philipe.screenmatch.model;
+package br.com.alura.philipe.consumoapiseriesefilmes.model;
 
-import br.com.alura.philipe.screenmatch.service.traducao.ConsultaMyMemory;
+import br.com.alura.philipe.consumoapiseriesefilmes.service.traducao.ConsultaMyMemory;
 import jakarta.persistence.*;
 
 import java.util.ArrayList;

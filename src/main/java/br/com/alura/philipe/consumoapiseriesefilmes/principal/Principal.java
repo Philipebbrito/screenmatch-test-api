@@ -1,10 +1,9 @@
-package br.com.alura.philipe.screenmatch.principal;
+package br.com.alura.philipe.consumoapiseriesefilmes.principal;
 
-import br.com.alura.philipe.screenmatch.model.*;
-import br.com.alura.philipe.screenmatch.model.*;
-import br.com.alura.philipe.screenmatch.repository.SerieRepository;
-import br.com.alura.philipe.screenmatch.service.ConsumoApi;
-import br.com.alura.philipe.screenmatch.service.ConverteDados;
+import br.com.alura.philipe.consumoapiseriesefilmes.model.*;
+import br.com.alura.philipe.consumoapiseriesefilmes.repository.SerieRepository;
+import br.com.alura.philipe.consumoapiseriesefilmes.service.ConsumoApi;
+import br.com.alura.philipe.consumoapiseriesefilmes.service.ConverteDados;
 import org.springframework.dao.DataIntegrityViolationException;
 
 import java.util.*;
