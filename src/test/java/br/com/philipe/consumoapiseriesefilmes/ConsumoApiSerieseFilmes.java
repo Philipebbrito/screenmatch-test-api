@@ -1,10 +1,10 @@
-package br.com.philipe.screenmatch;
+package br.com.philipe.consumoapiseriesefilmes;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ScreenmatchApplicationTests {
+class ConsumoApiSerieseFilmes {
 
 	@Test
 	void contextLoads() {
